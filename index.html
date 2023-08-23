@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Rock-Paper-Scissors</h2>
-    <h4>Man Vs Computer!</h4>
-    <h5> Lets Gooo!!!</h5>
-    <button id="gameBtn">Play</button>
-    <div id="finalScore"></div>
+    <div class="headings">
+        <h1>Rock-Paper-Scissors</h1>
+        <h4>Man Vs Computer!</h4>
+        <h5> Lets Gooo!!!</h5>
+    </div>
+    <div class="playbtns">
+        <button id="gameBtn1">Rock</button>
+        <button id="gameBtn2">Paper</button>
+        <button id="gameBtn3">Scissors</button>
+    </div>
+    <div id="resultScore">
+        <div class="human">
+            <span>You</span>
+            <span id="humanWin">0</span>
+        </div>
+        <div class="comp">
+            <span>Computer</span>
+            <span id="computerWin">0</span>
+        </div>
+    </div>
+    <span id="finalScore"></span>
     <script src="external.js"></script>
 </body>
 </html>
