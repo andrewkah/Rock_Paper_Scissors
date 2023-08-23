@@ -10,7 +10,7 @@ let humanWin = () => {
 let computerWin = () => {
   lose = document.querySelector('#computerWin')
   compScore++; 
-  lose.textContent = computerScore;
+  lose.textContent = compScore;
 }
 
 
